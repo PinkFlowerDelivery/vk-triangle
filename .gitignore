@@ -40,8 +40,6 @@
 # debug information files
 *.dwo
 
-
 .cache/
 out/
 compile_commands.json
-
