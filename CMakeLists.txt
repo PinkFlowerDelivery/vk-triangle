@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.23)
 
 project(vkTriangle)
 
-add_executable(vkTriangle src/main.cpp src/vkTreang.cpp)
+add_executable(vkTriangle src/main.cpp src/vkTreang.cpp src/checkSuitableUtils.cpp)
 
 include(FetchContent)
 
