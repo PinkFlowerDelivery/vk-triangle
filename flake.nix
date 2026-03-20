@@ -14,10 +14,13 @@
           pkgs = import nixpkgs { inherit system; };
         in
         pkgs.mkShell {
-          packages = with pkgs; [
+
+          nativeBuildInputs = with pkgs; [
             vulkan-tools
+            glslang
             pkg-config
           ];
+
           buildInputs = with pkgs; [
             vulkan-headers
             vulkan-loader
